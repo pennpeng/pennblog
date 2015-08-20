@@ -157,8 +157,11 @@ virsh snapshot-list vm001
 4，删除快照
 `# virsh snapshot-delete vm001 14589897162`
 
-添加网卡
-virsh attach-interface vm001 --type bridge --source br0
-virsh dumpxml vm001查看
-virsh dumpxml vm001 >vm001.xml  永久生效
+##添加网卡
+`virsh attach-interface vm001 --type bridge --source br0`
+
+`virsh dumpxml vm001`查看
+
+`virsh dumpxml vm001 >vm001.xml`  永久生效
+
 使用virsh domiflist命令可以查看虚拟机目前拥有的网卡

@@ -141,7 +141,7 @@ kvm的克隆
 4、qcow2磁盘在线扩容
 `qemu-img resize test01.qcow2 +2G`
 
-##虚机快照
+## 虚机快照
 
 1、创建快照
 `virsh snapshot-create vm001`

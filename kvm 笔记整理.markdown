@@ -4,7 +4,7 @@
 
 ---
 
-##安装
+## 安装
 
 1，debian安装kvm
 `aptitude install qemu-kvm libvirt-bin`
@@ -99,7 +99,7 @@ virt-install -n win001 -r 2048 --vcpus=2 --os-type=windows --accelerate -c /iso/
 
 通过VNC连上就可以安装系统
 
-##kvm管理
+## kvm管理
 查询所有虚机
 `# virsh list --all`
 启动一个虚机
@@ -157,7 +157,7 @@ virsh snapshot-list vm001
 4，删除快照
 `# virsh snapshot-delete vm001 14589897162`
 
-##添加网卡
+## 添加网卡
 `virsh attach-interface vm001 --type bridge --source br0`
 
 `virsh dumpxml vm001`查看

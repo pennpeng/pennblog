@@ -142,7 +142,7 @@ tmpfs                     3.9G     12.0K      3.9G   0% /etc/prometheus/secrets/
 
 ​	路径就在`/etc/prometheus/secrets/etcd-certs`下面，所以上面创建的servicemonitor就使用该路径。
 
-![1544673513213](D:\学习文档\markdown\%5CUsers%5Cpenn%5CAppData%5CRoaming%5CTypora%5Ctypora-user-images%5C1544673513213.png)
+![1544673513213](https://github.com/pennpeng/pennblog/blob/master/images/2019-01-21_103856.png?raw=true)
 
 
 

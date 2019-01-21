@@ -91,7 +91,7 @@ spec:
 
 有了metrics端口之后，Prometheus就能获取到数据了
 
-![1544673805709](C:\Users\penn\AppData\Roaming\Typora\typora-user-images\1544673805709.png)
+![1544673805709](https://github.com/pennpeng/pennblog/blob/master/images/2019-01-21_102944.png?raw=true)
 
 
 
